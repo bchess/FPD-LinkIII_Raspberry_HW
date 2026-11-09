@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fpdlink2raspi")(type "KiCad")(uri "${KIPRJMOD}/fpdlink2raspi.pretty")(options "")(descr "Footprints reconstructed from the Altium Gerber X2 output"))
+)

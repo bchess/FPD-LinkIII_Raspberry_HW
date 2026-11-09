@@ -1,0 +1,209 @@
+(footprint "L_Murata_LQH3NP_3.0x3.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "3d71b0c9-28f6-485c-a74d-bb250459e311")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "10u"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29dbae45-94f1-4fa8-bfee-a196749e52e0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38ff53af-f1dc-42ec-be58-b5e3191b9363")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "LQH3NPZ100MJR SMD Shielded coil, 10 µH, 0.81 A, 0.24 Ω, 30 MHz"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "597ac056-ee84-47ac-8215-dd95d8fd63e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Murata"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cdbb5fc-c7b2-45ae-b83c-7c8a70ddec07")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" "LQH3NPZ100MJRL"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4939aaa3-7d14-43d6-9bf5-f4cb7639b52a")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier" "Arrow"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd1a214-6d8d-4b19-a181-3c00c21dbc00")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier PN" "LQH3NPZ100MJRL"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5617ebc8-cfab-4af9-82c7-8b816924b9ac")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Altium LibRef" "L1212_SHCOIL_10U_0A81_0R24_20PCT"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6acc4f7b-c37c-43dc-9fe8-a7d839d6fd31")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -2.1 -1.9) (xy -2.1 1.9) (xy 2.1 1.9) (xy 2.1 -1.9)
+		)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6a6ca2b7-5c06-4470-9834-6073d2cbc46e")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e2c8ad92-a7ca-4296-b3d5-96d2a3c20d4e")
+	)
+	(fp_line
+		(start 0 -0.3)
+		(end 0 0.3)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9c3d9aca-a37e-484e-8a39-293c13664fbe")
+	)
+	(fp_line
+		(start 0.3 0)
+		(end -0.3 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "aa1075ff-c853-40ab-8abf-4beefd45e641")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "82d3b439-0260-4bb8-adfa-8821e745a1eb")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d5a26015-7ed0-4ae9-8c19-132448ff1c70")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6c92d12e-2ef8-453c-9c0a-828bf5c2b1d0")
+	)
+	(pad "1" smd roundrect
+		(at -1.3 0 270)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "000ed876-bb5d-4d8b-97a1-aae2a717b0d5")
+	)
+	(pad "2" smd roundrect
+		(at 1.3 0 270)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "34b46323-acf2-438d-a118-fe8535356864")
+	)
+	(embedded_fonts no)
+)

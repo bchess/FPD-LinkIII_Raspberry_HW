@@ -1,0 +1,213 @@
+(footprint "SOT-23"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "52fc59c7-7fa3-4393-8e35-d0ed238c88e6")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "BSS138-13-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97ba04d5-8fcf-40a6-a3de-83ef63766409")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9143c22c-19bb-4fc6-88aa-92ece3adc9a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "N-Channel Digital FET 50V, 0.2A, 3.5Ω"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b016131-0dc0-4a95-ab1c-d98da71ec020")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Diodes"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbcd02a4-c91c-44af-b75d-8678e413476d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "BSS138-13-F"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11ab2ded-e018-4a1e-b6c8-4586cf1d17d9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "Mouser"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd741e2e-d38f-4e72-a6f9-537928122b44")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier PN" "621-BSS138-13-F"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2dc8766-4391-4b06-8cf8-2f26c45cb379")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Altium LibRef" "Q_DIODES_BSS138-13-F"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11b64de1-5ae3-4cee-8d3f-46279f635426")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 1.6 1.56) (xy -1.6 1.56) (xy -1.6 -1.56) (xy 1.6 -1.56)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c4a0e4c9-a1a1-41eb-b2a6-b3d6ab695fdb")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3f44a211-a8ee-4e29-8e97-1b4035ad484c")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8469e741-ef94-4a0d-9c4b-646ef6c7103e")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6d2fb618-6611-4ca3-b1a5-4c08c2a22421")
+	)
+	(fp_line
+		(start 0.7 -1.5)
+		(end -0.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e5429006-665d-4082-bb65-db18f5c25558")
+	)
+	(fp_line
+		(start 0.7 -1.5)
+		(end 0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7f954ac4-094f-41a7-9b54-be968a24d625")
+	)
+	(fp_line
+		(start 0.7 1.5)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d7d09c7c-dcc5-4804-892a-2cab938677a4")
+	)
+	(pad "1" smd roundrect
+		(at -1 -0.95 90)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "782d0d95-123b-497d-a717-4de6738bf8af")
+	)
+	(pad "2" smd roundrect
+		(at -1 0.95 90)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "78820018-8d56-4ebe-b62e-2cacbb1b4d40")
+	)
+	(pad "3" smd roundrect
+		(at 1 0 90)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "fa5c4ebf-e144-40a6-835a-36dc35237791")
+	)
+	(embedded_fonts no)
+)

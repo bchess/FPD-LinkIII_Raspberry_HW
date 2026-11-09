@@ -1,0 +1,231 @@
+(footprint "SOT-23-5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "68a4e6e2-be69-4ddf-853a-e0d9ed26b4f0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "LM3671MFX-1.8/NOPB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "667343ea-f9e0-48e9-9e64-7b74f3f259cb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04f5256d-cd70-4c7b-94d6-7d2fd68cb225")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "LM3671/-Q1 2-MHz, 600-mA Step-Down DC-DC Converter"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e0adaed-51ec-424c-9fcf-8fb0bf5a30cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "TI National Semiconductor"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e040a8c8-e650-406e-805b-8c2de25295e0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "LM3671MFX-1.8/NOPB"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "091974f7-421d-4750-9fcf-06b754bf0061")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "Digi-Key"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05091942-0295-445c-aa68-529bc63363a8")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier PN" "296-41425-1-ND"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b9aa455-e3d0-4dc1-8a01-b7612e56a816")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Altium LibRef" "U_TI_LM3671MFX-1.8"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b467de7-59e8-4ff8-a0a7-6da8edd65433")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 2.00001 1.65) (xy -1.99999 1.65) (xy -1.99999 -1.650001) (xy 2.00001 -1.650001)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7e96283-a924-4f62-bb97-ec4ee33c24a2")
+	)
+	(fp_line
+		(start -0.875 -1.525001)
+		(end -0.875 1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "93503ae4-ee74-4ede-93be-a3916747472d")
+	)
+	(fp_line
+		(start -0.875 -1.525001)
+		(end 0.87501 -1.525001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "add605dd-a22a-4ae5-ae23-82c6982fc569")
+	)
+	(fp_line
+		(start -0.875 1.525)
+		(end 0.87501 1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fdcc454a-2d32-4f6f-9e28-ca7ed60a0010")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.50001 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "09584761-103a-47a1-a957-9cf31adbaaf1")
+	)
+	(fp_line
+		(start 0.00001 -0.5)
+		(end 0.00001 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "741512fb-6201-4457-9aa3-1491e7c474d6")
+	)
+	(fp_line
+		(start 0.87501 -1.525001)
+		(end 0.87501 1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "355f7062-dbbe-4fc4-ac16-df460c16d3d4")
+	)
+	(pad "1" smd roundrect
+		(at -1.29999 -0.95 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "352e3ad1-8e32-4fa4-8444-124344e5807e")
+	)
+	(pad "2" smd roundrect
+		(at -1.29999 0 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "d83a8298-6e00-4296-8cea-474a7f251d21")
+	)
+	(pad "3" smd roundrect
+		(at -1.29999 0.95 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "ab3aa283-91ee-4c81-aeaa-d36084667684")
+	)
+	(pad "4" smd roundrect
+		(at 1.300011 0.95 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "2f41406c-a4ca-4f83-8209-8067206e269a")
+	)
+	(pad "5" smd roundrect
+		(at 1.300011 -0.95 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "d8b2892e-ab2d-4a7b-ba5f-c2c6636946cb")
+	)
+	(embedded_fonts no)
+)

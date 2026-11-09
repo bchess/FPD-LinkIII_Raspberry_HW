@@ -1,0 +1,209 @@
+(footprint "L_0402_1005Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "51752566-614a-4136-95c4-4a734ad90ddb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "330R 0.7A 280mR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4f15843-61a2-4200-851f-dcb54efff021")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e38e939a-2ca8-4994-9951-4fb766a8980b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "MPZ1005S331ETD25 SMD Ferrite Bead 330Ω@100MHz ±25%, 700 mA, DC 280 mΩ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34ebfd07-ea53-488d-bf31-feec10f093a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "TDK"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a9bd720-affc-476a-aa13-ba2a58377c0e")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" "MPZ1005S331ETD25"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12506c42-64f0-4689-9d34-00cbb3fe7e83")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier" "Mouser"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23cec860-0cae-4e0e-8773-61a7581f640e")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier PN" "810-MPZ1005S331ETD25"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b8aa46f-79ab-406c-ac3b-a164bba83096")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Altium LibRef" "L0402_BEAD_330R_0A7_25PCT"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b3359ef-0959-4e87-be91-89d590073d08")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1.25 -0.6) (xy -1.25 0.6) (xy 1.25 0.6) (xy 1.25 -0.6)
+		)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "791742b3-3b40-4af6-886d-567a902c6d2f")
+	)
+	(fp_line
+		(start -0.55 -0.35)
+		(end 0.55 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2a503fe8-d64e-4878-b941-264f50c63529")
+	)
+	(fp_line
+		(start -0.55 0.35)
+		(end -0.55 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "beb6ee5a-2687-4298-bd61-4c5b3d9f4cdd")
+	)
+	(fp_line
+		(start -0.55 0.35)
+		(end 0.55 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bb038052-e446-4c26-ba1b-07d64d1e18e0")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3d2f3097-e072-4b23-a1f6-aa23823785e8")
+	)
+	(fp_line
+		(start 0 0.35)
+		(end 0 -0.35)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e6409e01-9e86-479a-9bac-c1a9ccb58858")
+	)
+	(fp_line
+		(start 0.55 0.35)
+		(end 0.55 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c69392d3-7083-436a-8644-5b9e77311816")
+	)
+	(pad "1" smd roundrect
+		(at -0.585 0 270)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "92011c91-a1ec-496b-81c6-99e33a631c7c")
+	)
+	(pad "2" smd roundrect
+		(at 0.585 0 270)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "66229343-8dc1-441d-9f03-c61aa67a9761")
+	)
+	(embedded_fonts no)
+)

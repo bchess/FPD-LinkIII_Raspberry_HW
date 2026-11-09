@@ -1,0 +1,214 @@
+(footprint "Wurth_629105136821_USB_Micro-B"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "30ede0d4-63f4-4bf8-8073-f914cd4be8b8")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "Micro USB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07ef785a-912f-44f1-a81c-1ce0ea5fe493")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fb32d9f-c315-487c-9bd6-ec0e018638da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "WR-COM Micro USB SMT Type B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77929d53-a143-4075-baba-24fdfa9ce082")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Wurth Electronics"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f814974-32cc-4815-bc43-eafe928a6dca")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "629105136821"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8154a4f-c2d9-4468-afea-85caed5edc5b")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "Digi-Key"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7006bb97-9609-4e34-8309-28f3d6803ef1")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier PN" "732-3155-1-ND"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "729cfab7-b351-427d-90f0-5d2e846d7659")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Altium LibRef" "J_WE_629105136821"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8aaa704-1d7a-4211-97df-98e0fabfa9a0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 5.14999 4.2336) (xy -5.15001 4.2336) (xy -5.15001 -2.23765) (xy 5.14999 -2.23765)
+		)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "236ca747-b743-44dd-b328-1f1ce3c34494")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.07494 -1.11268)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.06)
+		(uuid "6df256ef-5a41-45c6-8f8e-a91c6c7e4fa0")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.07491 -1.11268)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.06)
+		(uuid "868cb212-b645-4853-9b7d-dee8554f6af0")
+	)
+	(pad "1" smd rect
+		(at -1.29998 -1.33747 90)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "7de31070-6bcb-4364-9813-0fe04cba8361")
+	)
+	(pad "2" smd rect
+		(at -0.65 -1.33747 90)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "e243eac1-6171-4133-af24-4addc24a06bb")
+	)
+	(pad "3" smd rect
+		(at -0.00001 -1.33747 90)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "9f441eeb-40f1-4897-a3d8-fab18426365e")
+	)
+	(pad "4" smd rect
+		(at 0.64997 -1.33747 90)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "3c7925ce-4dff-4559-a695-7a6bc02936bd")
+	)
+	(pad "5" smd rect
+		(at 1.29996 -1.33747 90)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "89eddaae-12ff-443b-9bcf-e29f599931a7")
+	)
+	(pad "Z1" smd rect
+		(at -4 1.3374 90)
+		(size 1.9 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "e8113667-c2b7-4c2f-aff2-5a6503c74f84")
+	)
+	(pad "Z2" smd rect
+		(at 3.99998 1.3374 90)
+		(size 1.9 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "3ce405b8-a433-4f6e-b76b-471bd3a91580")
+	)
+	(pad "Z3" smd rect
+		(at 1.1501 1.3374 90)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "65f37bd9-48e4-40fc-ae0c-86af429c79a7")
+	)
+	(pad "Z4" smd rect
+		(at -1.149871 1.3374 90)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "7aea413b-b8d7-4def-88f8-ee16964fac23")
+	)
+	(embedded_fonts no)
+)

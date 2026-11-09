@@ -1,0 +1,214 @@
+(footprint "D_SMA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2e17c014-9d5d-4655-b043-b560778f520e")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "B340LA-13-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eacc8925-f33d-414e-8adf-07a38be98e11")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d38131be-526f-4240-a682-0cd2ba403212")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Diode Schottky 40V 3A Surface Mount SMA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46510003-745b-491b-8053-4c2fce216215")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Diodes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "478178bf-ab45-49bc-b8d2-24209ae87a47")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "B340LA-13-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c38654b9-7d6e-4f26-bc0f-bf83d379d0ce")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "Digi-Key"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aa56884-1406-4855-92df-c1db88b998f2")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier PN" "B340LA-FDICT-ND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68d361b9-d37e-41f1-b9fb-ac5bf73a43e9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Altium LibRef" "D_DIODES_B340LA-13-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16dbe19b-54a4-4230-8b54-b6512f7eab65")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -4 2.00001) (xy -4 -2) (xy 3.999999 -2) (xy 3.999999 2.00001)
+		)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5c099330-f0ee-47ea-bc35-53b2fce84906")
+	)
+	(fp_line
+		(start -2.8 -1.5)
+		(end 2.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "da0684b1-6c4a-44ab-b75b-74411bee127f")
+	)
+	(fp_line
+		(start -2.8 1.5)
+		(end -2.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "33df9782-eaba-4285-a97c-83b2551c7868")
+	)
+	(fp_line
+		(start -2.8 1.5)
+		(end 2.8 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "40d5d0f2-7c88-409c-8e5a-35cdaab8e78c")
+	)
+	(fp_line
+		(start -2.1 1.5)
+		(end -2.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ff05afc2-272b-4bfd-80fa-121245a9b1cd")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "08196573-ed8b-41ef-b03c-f1fa69e31235")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.49999)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0921ad93-8e5e-462d-9614-bd8dd59db142")
+	)
+	(fp_line
+		(start 2.8 1.5)
+		(end 2.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "de62ca35-97bf-4cd6-9eab-daebad0827da")
+	)
+	(pad "1" smd roundrect
+		(at -2 0)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "7fce6780-a2ab-4460-8694-f1556fdff199")
+	)
+	(pad "2" smd roundrect
+		(at 2 0)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "aedcb149-9c3c-400b-88ba-42436a61cb38")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,209 @@
+(footprint "L_0603_1608Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "c3a4adb4-69d4-46b2-9f22-465b6249125c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "120R 3A 25mR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43dc8e19-f4d7-4628-b941-3b6ecb575ff5")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e79d10b6-2ed3-494e-a8b0-eaaab2b0908e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "BLM18SG121TN1D SMD Ferrite Bead 120Ω@100MHz, 25%, 3A, DC 25mΩ"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eb35630-839d-41cc-a0d1-2f07f656fc48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Murata"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efa9dd9a-25dc-405f-b1a1-b7949843c467")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" "BLM18SG121TN1D"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "279e2ed3-b5e3-4fd3-ba03-ffece58f2b9d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier" "Mouser"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfc4f1e8-9098-4bdc-a992-14575e95b7ce")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier PN" "81-BLM18SG121TN1D"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f58e62df-4f39-473f-901d-9e9012102d6f")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Altium LibRef" "L0603_BEAD_120R_3A_25PCT"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a076cc3f-5b96-4632-9433-72dd9c6e4ed2")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1.55 0.75) (xy 1.55 0.75) (xy 1.55 -0.75) (xy -1.55 -0.75)
+		)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3d2943be-3e09-4e8d-9894-659959e4c22c")
+	)
+	(fp_line
+		(start -0.875 -0.475)
+		(end -0.875 0.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "50aaacf6-173e-4bf0-ade5-bb3196b4c028")
+	)
+	(fp_line
+		(start -0.875 -0.475)
+		(end 0.875 -0.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0f057e97-ac2d-4e67-8799-5b7a346e6f7b")
+	)
+	(fp_line
+		(start -0.875 0.475)
+		(end 0.875 0.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "22664d5e-d6ab-41e0-bb8f-e808af1a59a6")
+	)
+	(fp_line
+		(start -0.475 0)
+		(end 0.475 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "30c896e6-89ce-48d8-86fa-3e8060390652")
+	)
+	(fp_line
+		(start 0 -0.475)
+		(end 0 0.475)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5e7c07cc-6107-4610-9c73-1c0f04f1a402")
+	)
+	(fp_line
+		(start 0.875 -0.475)
+		(end 0.875 0.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "756ba5c4-9903-4935-9ba7-d112542b4326")
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0 270)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "16fd29c1-d0f7-4514-8b3b-72bae0a6a3bb")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0 270)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "1edecba8-cbc2-4380-a6ae-d32b437984d3")
+	)
+	(embedded_fonts no)
+)

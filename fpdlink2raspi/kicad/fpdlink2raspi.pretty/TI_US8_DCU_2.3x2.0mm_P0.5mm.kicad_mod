@@ -1,0 +1,261 @@
+(footprint "TI_US8_DCU_2.3x2.0mm_P0.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "74e0cb9b-58d0-42ae-b636-eb8154daaacb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "TCA9406DCUR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9893636e-236c-45b9-b6ac-87452882e310")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a3777f2-131e-4534-9f17-5344ea59770f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "TCA9406 Dual Bidirectional 1-MHz I2C-BUS and SMBus Voltage Level-Translator, 1.65 to 3.6 V, -40 to 85 degC, 8-pin US8 (DCU), Green (RoHS & no Sb/Br)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0252e151-1fc6-4e3d-8b61-a92ca84f4a74")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b5127eb-4f6c-4611-a6e7-cb59f69062d0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TCA9406DCUR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e66178b-06b4-4d03-ab38-312103449794")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "Digi-Key"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "280a9f23-49ac-4c9d-b86c-ebd64766d780")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier PN" "296-28109-6-ND"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa404a0-3a3f-4a2d-a94c-6cbd634a7ff5")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Altium LibRef" "U_TI_TCA9406DCUR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18156c05-b430-46de-abc6-645ba67e49ad")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 1.95 1.149999) (xy -1.95 1.149999) (xy -1.95 -1.150001) (xy 1.95 -1.150001)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e9d20220-1eac-4795-8e79-7b7fdf0fe111")
+	)
+	(fp_line
+		(start -1.2 -1.050001)
+		(end -1.2 1.049999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e6bc9f4a-8551-4ab6-a516-906c157e6c62")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.499999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "854f1f40-e556-4cc2-b3d9-cd3b4ef6ec38")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5ed3807d-4a90-434b-bad1-b49ea6a032a7")
+	)
+	(fp_line
+		(start 1.2 -1.050001)
+		(end -1.2 -1.050001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cff0f79f-5568-40f5-a98b-4de9e34ffd32")
+	)
+	(fp_line
+		(start 1.2 -1.050001)
+		(end 1.2 1.049999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9e9e0bb8-0d66-422a-be44-57aa4ce267be")
+	)
+	(fp_line
+		(start 1.2 1.049999)
+		(end -1.2 1.049999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f4d52477-fcac-4c72-b6d0-1362df1cf674")
+	)
+	(fp_circle
+		(center -0.4 -0.25)
+		(end -0.8 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "33af4816-82e9-43ee-9b15-b87a1c40b47e")
+	)
+	(pad "1" smd oval
+		(at -1.525 -0.75)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "2f89a45c-feeb-434c-bc5e-3942504aaf07")
+	)
+	(pad "2" smd oval
+		(at -1.525 -0.25)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "791e965d-bbb0-492e-a676-83897f6e5058")
+	)
+	(pad "3" smd oval
+		(at -1.525 0.249999)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "91f24674-6348-4c82-8186-abdfa24502d7")
+	)
+	(pad "4" smd oval
+		(at -1.525 0.749999)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "0de7c9a9-d83a-4a15-9b7d-c1e8a6effacb")
+	)
+	(pad "5" smd oval
+		(at 1.525 0.749999)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "984f4a92-dff3-4328-8c93-0e668be9de56")
+	)
+	(pad "6" smd oval
+		(at 1.525 0.249999)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "a89a20ba-d974-4d4c-a5ef-fe5c6412d1b6")
+	)
+	(pad "7" smd oval
+		(at 1.525 -0.25)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "92f483c0-d23a-4d33-9408-ac8dc63edfce")
+	)
+	(pad "8" smd oval
+		(at 1.525 -0.75)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(thermal_bridge_angle 45)
+		(uuid "b62edb11-08de-461b-82be-e307a2eba3e2")
+	)
+	(embedded_fonts no)
+)
